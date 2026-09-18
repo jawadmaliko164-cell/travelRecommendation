@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWise - Travel Recommendation</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="brand" href="#home">WanderWise</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="search-box">
+            <input id="searchInput" type="search" placeholder="Search beach, temple, country..." aria-label="Search">
+            <button id="searchBtn" type="button">Search</button>
+            <button id="clearBtn" type="button" class="clear-btn">Clear</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <p class="eyebrow">EXPLORE • DISCOVER • TRAVEL</p>
+                    <h1>Discover Your Next Adventure</h1>
+                    <p>Find inspiring beaches, temples, and destinations around the world. Search for a place and let WanderWise help you plan your next journey.</p>
+                    <a class="book-btn" href="#contact">Book Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="results" class="section results-section" aria-live="polite">
+            <h2>Recommended Destinations</h2>
+            <p id="resultMessage" class="result-message">Search for <strong>beach</strong>, <strong>temple</strong>, or <strong>country</strong> to see recommendations.</p>
+            <div id="recommendations" class="recommendations"></div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="section-heading">
+                <p class="eyebrow">ABOUT US</p>
+                <h2>Travel made simple</h2>
+            </div>
+            <p>WanderWise is a travel recommendation platform created to make destination discovery easier. We bring together useful travel information so visitors can explore new cultures, beautiful places, and memorable experiences.</p>
+            <div class="team-grid">
+                <article class="team-card"><div class="avatar">JD</div><h3>Jordan Davis</h3><p>Founder & Travel Planner</p></article>
+                <article class="team-card"><div class="avatar">AS</div><h3>Alex Smith</h3><p>Destination Researcher</p></article>
+                <article class="team-card"><div class="avatar">MK</div><h3>Maya Khan</h3><p>Customer Experience Lead</p></article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="contact-copy">
+                <p class="eyebrow">CONTACT US</p>
+                <h2>Let's plan your next trip</h2>
+                <p>Have a question or want help choosing a destination? Send us a message.</p>
+                <p><strong>Email:</strong> hello@wanderwise.example</p>
+                <p><strong>Phone:</strong> +1 555 010 2026</p>
+            </div>
+            <form id="contactForm" class="contact-form">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                <button type="submit">Submit</button>
+                <p id="formMessage" class="form-message" role="status"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 WanderWise Travel Recommendations</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
+        </div>
+    </footer>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

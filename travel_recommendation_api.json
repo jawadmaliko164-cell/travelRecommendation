@@ -1,0 +1,58 @@
+{
+  "beaches": [
+    {
+      "name": "Bora Bora",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+      "description": "Bora Bora is known for turquoise lagoons, coral reefs, and beautiful tropical scenery."
+    },
+    {
+      "name": "Maldives",
+      "imageUrl": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1000&q=80",
+      "description": "The Maldives offers clear blue water, sandy beaches, and a relaxing island experience."
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat",
+      "imageUrl": "https://images.unsplash.com/photo-1604910114064-5d8a2d7e0d72?auto=format&fit=crop&w=1000&q=80",
+      "description": "Angkor Wat in Cambodia is a historic temple complex famous for its architecture and cultural heritage."
+    },
+    {
+      "name": "Fushimi Inari Taisha",
+      "imageUrl": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=1000&q=80",
+      "description": "Fushimi Inari Taisha in Kyoto is celebrated for its long paths of traditional red torii gates."
+    }
+  ],
+  "countries": [
+    {
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo",
+          "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1000&q=80",
+          "description": "Tokyo combines modern city life, traditional culture, food, shopping, and iconic landmarks."
+        },
+        {
+          "name": "Kyoto",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1000&q=80",
+          "description": "Kyoto is known for historic neighborhoods, temples, gardens, and traditional Japanese culture."
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "cities": [
+        {
+          "name": "Paris",
+          "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=80",
+          "description": "Paris is famous for art, architecture, museums, caf\u00e9s, and landmarks such as the Eiffel Tower."
+        },
+        {
+          "name": "Nice",
+          "imageUrl": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1000&q=80",
+          "description": "Nice offers Mediterranean scenery, a historic old town, and the famous Promenade des Anglais."
+        }
+      ]
+    }
+  ]
+}
